@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import GamePieces from "./GamePieces";
 
 const GameState = () => {
-  const [score, setScore] = useState(9);
+  const [score, setScore] = useState(0);
   const [highScore, setHighScore] = useState(parseInt(localStorage.getItem("highScore")) || 0);
   const [gameOver, setGameOver] = useState(false);
   const [collisionType, setCollisionType] = useState(null);

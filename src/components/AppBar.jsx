@@ -1,4 +1,5 @@
 import { AuthNav } from "./AuthNav";
+import GameState from "./GameState";
 import { Navigation } from "./Navigation";
 import UserMenu from "./UserMenu";
 
@@ -9,6 +10,7 @@ const AppBar = () => {
       <header>
         <Navigation />
         {isLoggedIn ? <UserMenu /> : <AuthNav />}
+        <GameState />
       </header>
     </div>
   );
