@@ -1,0 +1,24 @@
+div {
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0c0b0b;
+}
+
+.snake {
+  background: red;
+}
+
+.food {
+  background: green;
+}
+.selected {
+  background: blue;
+}
